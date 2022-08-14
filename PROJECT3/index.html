@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<style>
+    body{
+        padding:0;
+        margin:0;
+        display:flex;
+        height:100vh;
+        align-items: center;
+        background:url(../images/);
+        justify-content: center;
+        font-family:'Charis SIL', serif;
+        background-size: cover;
+        background:linear-gradient(90deg,rgb(0, 7, 87),rgb(97, 97, 97));
+
+    }
+    .calender{
+        width: 260px;
+        height:auto;
+        box-sizing: border-box;
+        background:url(./tomoko-uji-v4bkVOl1sTI-unsplash.jpg);
+    }
+    .calender .date{
+        display:grid;
+        padding:25px;
+        grid-template-columns: repeat(auto-fit,minmax(21px,1fr));
+        grid-gap: 10px;
+        box-sizing: border-box;
+    }
+    .calender .date .day , .number{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height: 20px;
+        color:rgb(69, 67, 67);
+    }
+    .calender .date .day{
+        color:rgb(0, 0, 0);
+        font-weight: bold;
+    }
+    .calender .date .day:first-child{
+        color:rgb(255, 0, 0);
+        font-weight: bold;
+        
+    }
+    .calender .date .number:nth-child(7n+1){
+        color:rgb(255, 0, 0);
+        font-weight: bold;
+       
+    }
+    .calender .date .number:nth-child(7n+7){
+        color:rgb(255, 0, 0);
+        font-weight: bold;
+
+       
+    }
+    .calender .date .number:hover{
+        cursor: pointer;
+        background-color:blue;
+
+       
+    }
+    .calender .image{
+        height: 150px;
+        width: auto;
+        background-color:black;
+        background:url(./aaron-burden-GVnUVP8cs1o-unsplash.jpg);
+        background-size:cover;
+       
+        box-sizing: border-box;
+        padding: 10px;
+
+    }
+   h2{
+        color:white;
+    }
+</style>
+<body>
+    <div class="calender">
+        <div class="image">
+            <h2>August</h2>
+            <h2>2022</h2>
+        </div>
+      
+        <div class="date">
+            <div class="day">S</div>
+            <div class="day">M</div>
+            <div class="day">T</div>
+            <div class="day">W</div>
+            <div class="day">T</div>
+            <div class="day">F</div>
+            <div class="day">S</div>
+            <div class="number"></div>
+            <div class="number"></div>
+            <div class="number"></div>
+            <div class="number"></div>
+            <div class="number">1</div>
+            <div class="number">2</div>
+            <div class="number">3</div>
+            <div class="number">4</div>
+            <div class="number">5</div>
+            <div class="number">6</div>
+            <div class="number">7</div>
+            <div class="number">8</div>
+            <div class="number">9</div>
+            <div class="number">10</div>
+            <div class="number">11</div>
+            <div class="number">12</div>
+            <div class="number">13</div>
+            <div class="number">14</div>
+            <div class="number">15</div>
+            <div class="number">16</div>
+            <div class="number">17</div>
+            <div class="number">18</div>
+            <div class="number">19</div>
+            <div class="number">20</div>
+            <div class="number">21</div>
+            <div class="number">22</div>
+            <div class="number">23</div>
+            <div class="number">24</div>
+            <div class="number">25</div>
+            <div class="number">26</div>
+            <div class="number">27</div>
+            <div class="number">28</div>
+            <div class="number">29</div>
+            <div class="number">30</div>
+        </div>
+       
+    </div>
+    
+</body>
+</html>
